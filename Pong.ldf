@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="Pong" device="LCMXO2-4000HC-5TG144C" default_implementation="impl1">
+    <Options/>
+    <Implementation title="impl1" dir="impl1" description="impl1" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="pong_top"/>
+        <Source name="pong_main.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="vga_sync_gen.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="delay.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/ddr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/dev_i2c_phy.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/dev_i2c_phy_bit.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/dev_i2c_phy_scaler.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/hdmi_i2c_cfg.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/pll_75mhz.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../pong/src/phy/pong_top.v" type="Verilog" type_short="Verilog">
+            <Options top_module="pong_top"/>
+        </Source>
+        <Source name="../../pong/src/phy/vo_phy_ddr.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="impl1/impl1.xcf" type="Programming Project File" type_short="Programming">
+            <Options/>
+        </Source>
+        <Source name="Pong.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="Pong1.sty"/>
+</BaliProject>
